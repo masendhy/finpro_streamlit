@@ -10,6 +10,8 @@ image = Image.open('images/pandas.png')
 st.image(image)
 
 
+
+
 st.markdown("""
 #  Final Project Data Science Rakamin Bootcamp Batch 32
 """)

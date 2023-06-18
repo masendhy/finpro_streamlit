@@ -3,7 +3,6 @@
 import streamlit as st
 
 
-
 class MultiApp:
     """Framework for combining multiple streamlit applications.
     Usage:
@@ -49,3 +48,12 @@ class MultiApp:
             format_func=lambda app: app['title'])
 
         app['function']()
+
+
+st.set_page_config(
+    page_title="Final Project | About Dataset",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+
+)

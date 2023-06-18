@@ -2,13 +2,13 @@ import streamlit as st
 from PIL import Image
 
 
-st.set_page_config(
-    page_title="Final Project | About Dataset",
-    page_icon="🧊",
-    layout="wide",
-    initial_sidebar_state="expanded",
+# st.set_page_config(
+#     page_title="Final Project | About Dataset",
+#     page_icon="🧊",
+#     layout="wide",
+#     initial_sidebar_state="expanded",
 
-)
+# )
 
 
 image = Image.open('images/banner.png')
@@ -37,30 +37,29 @@ def app():
     st.write('\n \n')
     st.title('Our Team')
 
-    with st.container():
 
-        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.columns(8)
+    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.columns(8)
 
-        with tab1:
+    with tab1:
             st.image(image_edgar, width=75, caption='Edgar')
 
-        with tab2:
+    with tab2:
             st.image(image_teguh, width=75, caption='Teguh')
 
-        with tab3:
+    with tab3:
             st.image(image_jannisah, width=75, caption='Jannisah')
 
-        with tab4:
+    with tab4:
             st.image(image_sendhy, width=75, caption='Sendhy')
 
-        with tab5:
+    with tab5:
             st.image(image_vio, width=75, caption='Vionella')
 
-        with tab6:
+    with tab6:
             st.image(image_faris, width=75, caption='Faris')
 
-        with tab7:
+    with tab7:
             st.image(image_jodhi, width=75, caption='Jodhi')
 
-        with tab8:
+    with tab8:
             st.image(image_nanda, width=75, caption='Nanda')
