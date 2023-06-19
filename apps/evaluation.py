@@ -12,7 +12,7 @@ image_con = Image.open('images/convertion.png')
 
 def app():
     st.title('Confusion Matrix')
-    st.image(image)
+    st.image(image, width=300)
 
     st.write('\n')
     st.write('\n')
@@ -39,11 +39,11 @@ def app():
                 image_721, caption="True Positive : Diprediksi mengambil paket liburan dan itu benar", width=125,)
 
     st.title('Kenaikan Total Revenue')
-    st.image(image_rev)
+    st.image(image_rev, width=300)
     st.write(
         ':orange[`Revenue = (TP * Profit per package) - ((TP + FP) * Cost per marketing)`]')
-    
+
     st.title('Kenaikan Conversion Rate')
-    st.image(image_con)
+    st.image(image_con, width=300)
     st.write(
         ':orange[`Conversion Rate = TP / (TP + FP)`]')

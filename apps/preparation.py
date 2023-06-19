@@ -7,7 +7,7 @@ image = Image.open('images/problem.jpg')
 def app():
     st.title('Problem Statement')
 
-    st.image(image)
+    st.image(image, width=300)
 
     st.write('\n \n **_Tahun lalu hanya 19% pelanggan yang membeli paket liburan._**')
 

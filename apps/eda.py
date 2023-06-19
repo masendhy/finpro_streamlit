@@ -22,23 +22,23 @@ def app():
 
     st.write('\n\n')
     st.subheader('Dataset Analysis')
-    st.image(image)
+    st.image(image, width=300)
     st.write('***Terdapat 2 kolom yang memiliki outliers***')
 
     st.write('\n\n')
     st.subheader('Bisnis Insight : _Penargetan Pelanggan_')
-    st.image(image_passport)
+    st.image(image_passport, width=300)
     st.write(
         '***Mendorong pelanggan untuk :orange[memperoleh paspor] dengan melakukan penawaran khusus.***')
 
     st.write('\n\n')
     st.subheader('Bisnis Insight : _Penentuan Harga Paket Terbaru_')
-    st.image(image_product)
+    st.image(image_product, width=300)
     st.write(
         '***Perusahaan dapat menyesuaikan harga paket terbaru :orange[menyesuaikan range harga paket kelas bawah hingga menengah (Basic, Standard, dan Deluxe)], sehingga dapat menarik perhatian pelanggan.***')
 
     st.write('\n\n')
     st.subheader('Bisnis Insight : _Keterlibatan Digital_')
-    st.image(image_age)
+    st.image(image_age, width=300)
     st.write(
         '***Membangun kehadiran yang kuat di platform digital, seperti media sosial atau aplikasi mobile. Sesuaikan :orange[konten dengan minat pelanggan yang lebih muda], seperti gunakan bahasa, gambar, dan gaya komunikasi yang sesuai dengan target audiens.***')

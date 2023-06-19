@@ -24,7 +24,7 @@ image_jodhi = Image.open('images/jodhi.png')
 
 def app():
     st.write('\n \n')
-    st.image(image)
+    st.image(image,width=300)
 
     st.title('About Dataset')
 
