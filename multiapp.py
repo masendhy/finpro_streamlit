@@ -50,10 +50,10 @@ class MultiApp:
         app['function']()
 
 
-st.set_page_config(
-    page_title="Final Project | About Dataset",
-    page_icon="🧊",
-    layout="wide",
-    initial_sidebar_state="expanded",
+# st.set_page_config(
+#     page_title="Final Project | About Dataset",
+#     page_icon="🧊",
+#     layout="wide",
+#     initial_sidebar_state="expanded",
 
-)
+# )
