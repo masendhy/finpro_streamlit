@@ -36,30 +36,13 @@ def app():
 
     st.write('\n \n')
     st.title('Our Team')
+    st.image(image_edgar, width=75, caption='Edgar')
+    st.image(image_teguh, width=75, caption='Teguh')
+    st.image(image_jannisah, width=75, caption='Jannisah')
+    st.image(image_sendhy, width=75, caption='Sendhy')
+    st.image(image_vio, width=75, caption='Vionella')
+    st.image(image_faris, width=75, caption='Faris')
+    st.image(image_jodhi, width=75, caption='Jodhi')
+    st.image(image_nanda, width=75, caption='Nanda')
 
 
-    tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.columns(8)
-
-    with tab1:
-            st.image(image_edgar, width=75, caption='Edgar')
-
-    with tab2:
-            st.image(image_teguh, width=75, caption='Teguh')
-
-    with tab3:
-            st.image(image_jannisah, width=75, caption='Jannisah')
-
-    with tab4:
-            st.image(image_sendhy, width=75, caption='Sendhy')
-
-    with tab5:
-            st.image(image_vio, width=75, caption='Vionella')
-
-    with tab6:
-            st.image(image_faris, width=75, caption='Faris')
-
-    with tab7:
-            st.image(image_jodhi, width=75, caption='Jodhi')
-
-    with tab8:
-            st.image(image_nanda, width=75, caption='Nanda')
