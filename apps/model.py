@@ -47,7 +47,7 @@ def app():
 
     st.write('\n\n')
     st.subheader('Correlation Features')
-    st.image(image,width=300)
+    st.image(image,width=600)
     st.write('### **20 fitur --> 10 fitur & 1 target**')
     st.write(
         '* Untuk melihat apakah di antara fitur yang tersisa, terdapat fitur yang redundant atau tidak')

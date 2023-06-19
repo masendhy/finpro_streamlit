@@ -19,4 +19,4 @@ def app():
         'Menawarkan :orange[***tujuan dan destinasi wisata terkini***] yang diminati oleh kalangan usia muda (± 20-35 tahun), baik dari segi penginapan dan kegiatan-kegiatan yang termasuk di dalamnya.')
 
     st.write("# ***Thank You...***")
-    st.image(image, width=300)
+    st.image(image, width=600)
