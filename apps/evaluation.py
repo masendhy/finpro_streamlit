@@ -46,4 +46,4 @@ def app():
     st.title('Kenaikan Conversion Rate')
     st.image(image_con, width=600)
     st.write(
-        ':orange[`Conversion Rate = TP / (TP + FP)`]')
+        ':orange[`Conversion Rate = (TP / (TP + FP)) x 100%`]')
