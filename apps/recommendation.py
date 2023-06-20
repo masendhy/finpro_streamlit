@@ -10,9 +10,9 @@ def app():
     st.write(
         'Mendorong customer untuk :orange[***memperoleh paspor***] dengan melakukan penawaran khusus.')
 
-    st.title('Penargetan Customer')
+    st.title('Penentuan Harga Paket Terbaru')
     st.write(
-        'Perusahaan dapat menentukan harga paket terbaru :orange[***menyesuaikan range harga paket kelas bawah hingga menengah (Basic, Standard, dan Deluxe***] sehingga dapat menarik perhatian pelanggan.')
+        'Perusahaan dapat menentukan harga paket terbaru :orange[***menyesuaikan range harga paket kelas bawah hingga menengah (Basic, Standard, dan Deluxe***] sehingga dapat menarik perhatian pelanggan.)')
 
     st.title('Paket Liburan Terkini')
     st.write(
